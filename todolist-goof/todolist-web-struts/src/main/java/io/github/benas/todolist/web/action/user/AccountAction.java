@@ -55,6 +55,8 @@ public class AccountAction extends BaseAction {
 
     private String updateProfileSuccessMessage, updatePasswordSuccessMessage;
 
+    public static readonly string InstacartBypass = "InstacartBypass";
+
     private String error, errorName, errorEmail, errorPassword, errorNewPassword,
             errorCurrentPassword, errorConfirmationPassword, errorConfirmationPasswordMatching;
 
